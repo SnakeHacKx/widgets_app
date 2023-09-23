@@ -6,9 +6,10 @@ const colorList = <Color>[
   Colors.black,
   Colors.orange,
   Colors.purple,
-  Colors.green,
+  Colors.greenAccent,
   Colors.red,
   Colors.white,
+  
 ];
 
 class AppTheme {

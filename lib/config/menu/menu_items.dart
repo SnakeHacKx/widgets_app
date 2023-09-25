@@ -16,6 +16,12 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+    title: 'Riverpod Counter',
+    subTitle: 'Intro a Riverpod',
+    link: '/riverpod',
+    icon: Icons.add,
+  ),
+  MenuItem(
     title: 'Botones',
     subTitle: 'Varios botones en Flutter',
     link: '/buttons',
@@ -56,5 +62,17 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Tutorial introductorio',
     link: '/tutorial',
     icon: Icons.accessible_rounded,
+  ),
+  MenuItem(
+    title: 'Infinite Scroll + Pull',
+    subTitle: 'Listas infinitas y pull to refresh',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded,
+  ),
+  MenuItem(
+    title: 'Cambiar tema',
+    subTitle: 'Temas de la aplicación',
+    link: '/theme-changer',
+    icon: Icons.color_lens_rounded,
   ),
 ];

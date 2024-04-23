@@ -46,9 +46,10 @@ class _ButtonsView extends StatelessWidget {
               child: Text('Disabled'),
             ),
             ElevatedButton.icon(
-                onPressed: () {},
-                label: const Text('Elevated Icon'),
-                icon: const Icon(Icons.access_alarm_rounded)),
+              onPressed: () {},
+              label: const Text('Elevated Icon'),
+              icon: const Icon(Icons.access_alarm_rounded),
+            ),
             FilledButton(
               onPressed: () {},
               child: const Text('Filled'),
@@ -112,8 +113,7 @@ class CustomButton extends StatelessWidget {
           onTap: () {},
           child: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            child:
-                Text('Hola Mundo', style: TextStyle(color: Colors.white)),
+            child: Text('Hola Mundo', style: TextStyle(color: Colors.white)),
           ),
         ),
       ),
